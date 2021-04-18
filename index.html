@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <link rel="stylesheet" href="./out.css?_=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap">
+</head>
+<body class="text-white">
+  <div class="flex justify-center items-center h-screen px-8 sm:px-24 xl:px-42">
+    <div class="card flex flex-col-reverse sm:flex-row justify-between rounded-lg">
+      <div class="card-content p-8 sm:p-70px flex flex-col justify-between">
+      	<div>
+		      <div class="text-2xl text-center sm:text-left sm:text-4xl font-bold">Get <span class="insights">insights</span> that help your business grow.</div>
+
+		      <div class="text-sm text-center sm:text-left mt-4 sm:mt-6 leading-6 stw-1 xl:mr-16">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+		      experience, and overall efficiency.</div>
+	      </div>
+
+	      <div class="flex flex-col sm:flex-row text-center sm:text-left justify-between xl:mr-16 mt-5">
+	      	<div>
+	      	  <div class="text-2xl font-bold">10k+</div>
+	      	  <div class="lexend-deca stw-2 text-xm">COMPANIES</div>
+	      	</div>
+	        <div class="mt-6 sm:mt-0">
+	          <div class="text-2xl font-bold">314</div>
+	          <div class="lexend-deca stw-2 text-xm">TEMPLATES</div>
+	        </div>
+	        <div class="mt-6 sm:mt-0">
+	          <div class="text-2xl font-bold">12M+</div>
+	          <div class="lexend-deca stw-2 text-xm">QUERIES</div>
+	        </div>
+	      </div>
+      </div>
+      <div class="img-container xl:w-540 overflow-hidden rounded-t-lg sm:rounded-none">
+      	<picture>
+				  <source media="(min-width: 640px)" srcset="images/image-header-desktop.jpg">
+				  <img src="images/image-header-mobile.jpg" class="mix-blend-multiply">
+				</picture>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve",
+    "build": "postcss styles.css -o out.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1",
+    "serve": "^11.3.2",
+    "tailwindcss": "^2.1.1"
+  }
+}

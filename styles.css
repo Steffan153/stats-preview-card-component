@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+
+.img-container {
+  background-color: hsla(277, 64%, 61%, 1);
+}
+
+.card {
+  background-color: hsl(244, 38%, 16%);
+}
+
+@media (min-width: 640px) {
+  img {
+    min-width: 540px;
+  }
+
+  .sm\:p-70px {
+  	padding: 70px;
+  }
+}
+
+.card-content {
+  font-family: Inter;
+}
+
+span.insights {
+	color: hsl(277, 64%, 61%);
+}
+
+.lexend-deca {
+	font-family: Lexend Deca;
+}
+
+@media (min-width: 1400px) {
+  .xl\:px-42 {
+  	padding-left: 10.5rem;
+  	padding-right: 10.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-540 {
+  	min-width: 540px;
+  }
+}
+
+.stw-1 {
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stw-2 {
+	color: hsla(0, 0%, 100%, 0.6);
+}
+
+.text-xm {
+	font-size: 0.85rem;
+}
