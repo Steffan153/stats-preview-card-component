@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-with-tailwind-css-_u7G0mCLv
 - Live Site URL: https://stats-preview-card-component.netlify.app/
 
 ## My process
