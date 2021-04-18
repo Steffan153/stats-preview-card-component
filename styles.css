@@ -38,8 +38,8 @@ span.insights {
 
 @media (min-width: 1280px) {
   .xl\:px-42 {
-  	padding-left: 10.5rem;
-  	padding-right: 10.5rem;
+  	padding-left: 10.5rem !important;
+  	padding-right: 10.5rem !important;
   }
 }
 
